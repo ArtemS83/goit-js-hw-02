@@ -16,7 +16,30 @@
 //   const result = array.join('\n');
 //   return result;
 // };
+// Вариант один-1,который пройдет проверку чат бота
+// const getItemsString = function (array) {
+//   'use strict';
+//   // Write code under this line
+//   let result = '';
+//   for (let i = 0; i < array.length; i += 1) {
+//     array[i] = `${i + 1} - ${array[i]}`;
 
+//     result = array.join(`\n`) + `\n`; //Добавлено исключено затем, чтобы пройти автопроверку. Так запрограммирован бот: в конце шаблонной строки для каждого элемента массива требуется \n.
+//   }
+//   return result;
+// };
+////// Вариант один-2,который пройдет проверку чат бота
+// const getItemsString = function (array) {
+//   'use strict';
+//   // Write code under this line
+//   let result = '';
+//   for (let i = 0; i < array.length; i += 1) {
+//     array[i] = `${i + 1} - ${array[i]}\n`;
+
+//     result = array.join(``);
+//   }
+//   return result;
+// };
 // console.log(getItemsString(['Mango', 'Poly', 'Ajax', 'Lux', 'Jay', 'Kong']));
 /*
 '1 - Mango
