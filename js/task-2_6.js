@@ -6,6 +6,7 @@ function mapArray(array) {
     // Write code under this line
     numbers[i] = array[i] * 10;
   }
+
   return numbers;
 }
 
